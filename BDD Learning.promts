@@ -1,0 +1,21 @@
+I would like to create a python application called Pico Coms that has the features described in the BDD feature files
+in the root directory. 
+
+Each BDD scenario should first have a pytest system test created to verify the functionality. 
+
+Each function created for the python application should have a pytest unit test created to verify the function. 
+
+Read through the features and determine the next tasks to complete. 
+Tasks that need to be completed should be written to the BDD Learning.tasks file. 
+As each task is completed the BDD Learning.tasks file should be updated to mark the task complete.
+
+These are the steps that generally should be taken. 
+
+1. For each scenario implementations for each Given, When and Then should be created. 
+2. The BDD scenario should be executed. 
+   If the feature is not implemented the test will fail.
+   If the feature has been implemented the test should pass.
+3. Implement functionality for the first feature that is not implemented. 
+4. Fix any implementation for features that have already been implemented. 
+5. Create unit tests for any functions created for the implementation. 
+
